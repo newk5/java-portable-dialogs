@@ -25,6 +25,6 @@ Examples:
 ```java
   File folder = Dialog.selectFolder("Select folder", "C:\\");
   File file = Dialog.selectFile("Select file", "C:\\");
-  List<File> files = Dialog.selectFile("Select files", "C:\\");
+  List<File> files = Dialog.selectFiles("Select files", "C:\\");
   List<File> pdfs =  Dialog.selectFiles("Select files", "C:\\", "PDF files", "*.pdf");
 ```
